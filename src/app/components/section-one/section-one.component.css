@@ -1,0 +1,104 @@
+.sectionOne {
+    text-align: center;
+    position: relative;
+}
+
+.contenedor {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #241F74;
+    background-color: #FAFAFA;
+    opacity: 85%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+img {
+    width: 100%;
+    min-height: 500px;
+}
+
+.h5Bienvenido {
+    font-size: 50px;
+}
+
+.parrafo {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btnDador {
+    background: #FAFAFA;
+    color: #241F74;
+    border-color: #241F74;
+}
+
+.btnTranspor {
+    background: #241F74;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:1500px) {
+    .contenedor {
+        top: 10%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    div .img {
+        /*visibility: hidden;*/
+        /*max-width: 100%;*/
+        height: auto;
+    }
+    .contenedor {
+        height: auto;
+        width: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .contenedor {
+        top: 0%;
+        bottom: 0%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contenedor {
+        top: 0%;
+        bottom: 0%;
+        border-radius: 0%;
+        border: solid;
+        width: 100%;
+    }
+    div .h5Bienvenido {
+        font-size: 30px;
+    }
+    div .subTitulo {
+        font-size: 25px;
+    }
+    div .parrafo {
+        font-size: 10px;
+    }
+    .btnDador {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        display: block;
+    }
+    .btnTranspor {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 200px;
+        display: block;
+    }
+}
+
+@media screen and (max-width:300px) {}
