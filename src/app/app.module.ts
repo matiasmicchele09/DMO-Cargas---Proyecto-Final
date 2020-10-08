@@ -6,8 +6,10 @@ import { APP_ROUTING } from './app.routes';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
-import { FooterComponent } from './components/shared/footer/footer.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
+
 
 
 @NgModule({
@@ -16,6 +18,7 @@ import { HomeComponent } from './components/home/home.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
+    QuienesSomosComponent
   ],
   imports: [
     BrowserModule,
