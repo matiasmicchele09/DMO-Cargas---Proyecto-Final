@@ -1,9 +1,19 @@
 .navigation {
     color: #241F74;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 28px;
 }
 
 ul li .aNav {
     color: #241F74;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ul li .bNav {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
