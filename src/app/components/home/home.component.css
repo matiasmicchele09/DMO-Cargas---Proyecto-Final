@@ -1,0 +1,220 @@
+/* Primera sección de la página */
+
+.seccionUno {
+    text-align: center;
+    position: relative;
+}
+
+.seccionUno img {
+    width: 100%;
+    min-height: 500px;
+}
+
+.seccionUno .contenedor {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #241F74;
+    background-color: #FAFAFA;
+    opacity: 85%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.seccionUno .h5Bienvenido {
+    font-size: 50px;
+}
+
+.seccionUno .parrafo {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.seccionUno .btnDador {
+    background: #FAFAFA;
+    color: #241F74;
+    border-color: #241F74;
+}
+
+.seccionUno .btnTranspor {
+    background: #241F74;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:1500px) {
+    .seccionUno .contenedor {
+        top: 10%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .seccionUno .img {
+        /*visibility: hidden;*/
+        /*max-width: 100%;*/
+        height: auto;
+    }
+    .seccionUno .contenedor {
+        height: auto;
+        width: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .seccionUno .contenedor {
+        top: 0%;
+        bottom: 0%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .seccionUno .contenedor {
+        top: 0%;
+        bottom: 0%;
+        border-radius: 0%;
+        border: solid;
+        width: 100%;
+    }
+    .seccionUno .h5Bienvenido {
+        font-size: 30px;
+    }
+    .seccionUno .subTitulo {
+        font-size: 25px;
+    }
+    .seccionUno .parrafo {
+        font-size: 10px;
+    }
+    .seccionUno .btnDador {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        display: block;
+    }
+    .seccionUno .btnTranspor {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 200px;
+        display: block;
+    }
+}
+
+@media screen and (max-width:300px) {}
+
+
+/* Segunda sección de la página */
+
+.seccionDos .barraTitulo {
+    background-color: #241F74;
+    height: 70px;
+    align-items: center;
+}
+
+.seccionDos .containerCards {
+    background-color: #FAFAFA;
+    justify-content: space-around;
+}
+
+.seccionDos .cardBody {
+    padding: 0px;
+    border-radius: 30px;
+    border: solid;
+    margin: 20px;
+    background-color: #C9CAEE;
+    width: 270px;
+    height: 280px;
+    flex-grow: 1;
+}
+
+.seccionDos .cardTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #241F74;
+}
+
+@media screen and (max-width: 1000px) {
+    .seccionDos .cardBody {
+        width: 100%;
+        justify-content: space-around;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .seccionDos .cardBody {
+        width: 100%;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .seccionDos .cardBody {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Tercera sección de la página */
+
+.seccionTres {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.seccionTres .card {
+    background-color: rgb(68, 182, 93);
+    opacity: 90%;
+    position: absolute;
+}
+
+.seccionTres .contenedor {
+    background-color: #fafafa;
+    opacity: 90%;
+    border: solid;
+    border-radius: 3%;
+    margin-top: 10px;
+}
+
+.seccionTres img {
+    width: 100%;
+    min-height: 500px;
+}
+
+.seccionTres form .nom {
+    border-color: #000000;
+}
+
+.seccionTres form .e-mail {
+    border-color: #000000;
+}
+
+.seccionTres form .tel {
+    border-color: #000000;
+}
+
+.seccionTres form .dir {
+    border-color: #000000;
+}
+
+.seccionTres form .mensj {
+    border-color: #000000;
+}
+
+@media screen and (max-width:1000px) {
+    /*.parrafos {
+        width: 100%;
+    }*/
+    .seccionTres img {
+        min-height: 650px;
+    }
+    .seccionTres .contendor {
+        width: 100%;
+    }
+}
