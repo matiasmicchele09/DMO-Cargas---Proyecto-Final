@@ -1,33 +1,33 @@
 .nosotros {
-    background-color: #C9CAEE;
+    background-color: #2E2E2E;
+    padding-top: 65px;
 }
 
 .nosotros img {
     border-radius: 20%;
-    border: solid;
     width: auto;
     height: 300px;
 }
 
 .nosotros .contenedorCards {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 div .cardTitle {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 div .cardSubTitle {
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 div .cardText {
     font-family: Arial, Helvetica, sans-serif;
-    color: #FAFAFA;
+    color: #000000;
 }
 
 @media screen and (max-width: 600px) {
@@ -39,15 +39,16 @@ div .cardText {
 }
 
 .nosotros .primerRow {
-    background-color: #C9CAEE;
+    background-color: #E6E6E6;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .nosotros .segundoRow {
-    background-color: #C9CAEE;
+    background-color: #E6E6E6;
 }
 
 .nosotros .tipoCard {
-    background-color: #241F74;
+    border-color: #241F74;
+    border: solid;
 }
