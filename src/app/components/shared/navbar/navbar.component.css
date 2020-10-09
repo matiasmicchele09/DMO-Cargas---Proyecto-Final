@@ -6,13 +6,13 @@
     font-size: 28px;
 }
 
-ul li .aNav {
+ul li .aNav:hover {
     color: #241F74;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-ul li .bNav {
+ul li .bNav:hover {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;

@@ -1,5 +1,5 @@
 .nosotros {
-    background-color: #241F74;
+    background-color: #C9CAEE;
 }
 
 .nosotros img {
@@ -16,15 +16,18 @@
 div .cardTitle {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    color: #FAFAFA;
 }
 
 div .cardSubTitle {
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
+    color: #FAFAFA;
 }
 
 div .cardText {
     font-family: Arial, Helvetica, sans-serif;
+    color: #FAFAFA;
 }
 
 @media screen and (max-width: 600px) {
@@ -33,4 +36,18 @@ div .cardText {
         margin-top: 10px;
         margin-left: 0;
     }
+}
+
+.nosotros .primerRow {
+    background-color: #C9CAEE;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nosotros .segundoRow {
+    background-color: #C9CAEE;
+}
+
+.nosotros .tipoCard {
+    background-color: #241F74;
 }
