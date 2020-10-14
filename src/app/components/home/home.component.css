@@ -169,18 +169,22 @@
     background-color: black;
 }
 
-.seccionTres .card {
-    background-color: rgb(68, 182, 93);
-    opacity: 90%;
-    position: absolute;
+.seccionTres .tarjeta {
+    margin: 10px;
+    background-color: #FAFAFA;
+    opacity: 95%;
+    border: inset;
+    margin-left: auto;
+}
+
+.seccionTres .parrafos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .seccionTres .contenedor {
-    background-color: #fafafa;
-    opacity: 90%;
-    border: solid;
-    border-radius: 3%;
-    margin-top: 10px;
+    width: auto;
+    border: inset;
 }
 
 .seccionTres img {
