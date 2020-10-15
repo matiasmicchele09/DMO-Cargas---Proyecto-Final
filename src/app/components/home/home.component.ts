@@ -30,17 +30,21 @@ export class HomeComponent implements OnInit {
     return this.forma.get('telefono').invalid && this.forma.get('telefono').touched;
   }
 
-  get direccionNoValida(){
-    return this.forma.get('direccion').invalid && this.forma.get('direccion').touched;
+  get calleNumNoValida(){
+    return this.forma.get('calleNum').invalid && this.forma.get('calleNum').touched;
   }
 
+  get ciudadNoValida(){
+    return this.forma.get('ciudad').invalid && this.forma.get('ciudad').touched;
+  }
   crearFormulario(){
     this.forma = this.fb.group({
       nombre: ['', [Validators.required, Validators.minLength(4)]],
       correo: ['', [Validators.required, Validators.pattern('[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$')]],
       telefono: ['', [Validators.required, Validators.minLength(7)]],
-      direccion: ['', [Validators.required]]
-    }); /* el primer argumento, el '', es la inicialización, en este caso vacío */
+      calleNum: ['', Validators.required, Validators.minLength(4)],
+      ciudad: ['', Validators.required, Validators.minLength(4)]
+    }); /* direccion: ['', [Validators.required]]el primer argumento, el '', es la inicialización, en este caso vacío */
         /* estas son VALIDACIONES SINCRONOS, el Validators.minLength.... son validadores que se pueden hacer inmediatamente y que no
         requieren interacción con servicios web o bien se ejecutan siempre en el mismo hilo */
   }

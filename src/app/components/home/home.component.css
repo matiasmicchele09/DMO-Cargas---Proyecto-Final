@@ -170,7 +170,7 @@
 }
 
 .seccionTres .tarjeta {
-    margin: 10px;
+    margin: 15px;
     background-color: #FAFAFA;
     opacity: 95%;
     border: inset;
@@ -194,22 +194,33 @@
 
 .seccionTres form .nom {
     border-color: #000000;
+    font-size: 15px;
 }
 
 .seccionTres form .e-mail {
     border-color: #000000;
+    font-size: 15px;
 }
 
 .seccionTres form .tel {
     border-color: #000000;
+    font-size: 15px;
 }
 
 .seccionTres form .dir {
     border-color: #000000;
+    font-size: 15px;
+}
+
+.seccionTres form .ciu {
+    border-color: #000000;
+    font-size: 15px;
 }
 
 .seccionTres form .mensj {
     border-color: #000000;
+    font-size: 15px;
+    height: auto;
 }
 
 @media screen and (max-width:1000px) {
