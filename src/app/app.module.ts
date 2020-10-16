@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TerminosCondicionesComponent } from './components/terminos-condiciones/terminos-condiciones.component';
 
 
 
@@ -19,7 +20,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    QuienesSomosComponent
+    QuienesSomosComponent,
+    TerminosCondicionesComponent
   ],
   imports: [
     BrowserModule,
